@@ -1,0 +1,13 @@
+// This program finds the largest of three numbers
+
+let a = 6;  
+let b = 25; 
+let c = 14; 
+
+if (a >= b && a >= c) {
+    console.log(a + " is the largest number");
+} else if (b >= a && b >= c) {
+    console.log(b + " is the largest number");
+} else {
+    console.log(c + " is the largest number");
+}
